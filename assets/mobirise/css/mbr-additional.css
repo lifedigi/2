@@ -937,10 +937,6 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item {
   clear: both;
 }
-.cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-.cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-nav .nav-item:last-child {
-  margin-bottom: 1rem;
-}
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.collapsing .navbar-buttons,
 .cid-qTkzRZLJNu .collapsed .navbar-collapse.show .navbar-buttons {
   text-align: center;
@@ -1034,10 +1030,6 @@ section.lazy-placeholder:after {
   .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-nav .nav-item,
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item {
     clear: both;
-  }
-  .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-nav .nav-item:last-child,
-  .cid-qTkzRZLJNu .navbar-collapse.show .navbar-nav .nav-item:last-child {
-    margin-bottom: 1rem;
   }
   .cid-qTkzRZLJNu .navbar-collapse.collapsing .navbar-buttons,
   .cid-qTkzRZLJNu .navbar-collapse.show .navbar-buttons {
@@ -1597,4 +1589,37 @@ section.lazy-placeholder:after {
 }
 .cid-s0wlHaMyJP .team-item .item-caption {
   background: #efefef;
+}
+.cid-s0zQekzj0t {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-s0zQekzj0t h4 {
+  font-weight: 500;
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 2rem;
+}
+.cid-s0zQekzj0t p {
+  margin-bottom: 0;
+  text-align: left;
+  padding-top: 1.5rem;
+}
+.cid-s0zQekzj0t .mbr-section-btn {
+  padding-top: 2.5rem;
+}
+.cid-s0zQekzj0t .mbr-section-btn a {
+  margin: 0;
+}
+.cid-s0zQekzj0t .mbr-text {
+  color: #767676;
+}
+.cid-s0zQekzj0t .card-wrapper {
+  height: 100%;
+}
+@media (max-width: 767px) {
+  .cid-s0zQekzj0t .card:not(.last-child) {
+    padding-bottom: 2rem;
+  }
 }
